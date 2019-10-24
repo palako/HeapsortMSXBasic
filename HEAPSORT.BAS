@@ -8,7 +8,7 @@
 80 N%=0
 90 HP%(N%)=IN%(N%)
 100 C% = N%
-110 IF C% <> 0 AND HP%(C%)>HP%((C%-1)/2) THEN AU%=HP%(C%):HP%(C%)=HP%((C%-1)/2):HP%((C%-1)/2)=AU%:C%=(C%-1)/2:GOTO 110= N%+1
+110 IF C% <> 0 AND HP%(C%)>HP%((C%-1)/2) THEN AU%=HP%(C%):HP%(C%)=HP%((C%-1)/2):HP%((C%-1)/2)=AU%:C%=(C%-1)/2:GOTO 110
 120 N% = N%+1
 130 IF N% < 8 THEN GOTO 90
 140 REM Print HP% Array
